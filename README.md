@@ -21,7 +21,7 @@ If we represent the coordinates of rows (dy) and columns (dx) as a sequences of 
 3. The row coordinates (dy) for even sequences are incremented and then decremented by 1 (and so on). The row coordinates for odd sequences remain constant.
 4. For column coordinates (dx), the opposite is true.
 
-This algorithm is implemented in the spiralMatrix() function.
+This algorithm is implemented in local class.
 
 ### Usage
 ```abap
