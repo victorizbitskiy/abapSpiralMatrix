@@ -24,11 +24,10 @@ If we represent the coordinates of rows (dy) and columns (dx) as a sequences of 
 This algorithm is implemented in the spiralMatrix() function.
 
 ### Usage
-```javascript
-    const sm = require('./spiralMatrix')
-    
-    const array = sm.spiralMatrix(dimention = 5, initialValue = 0)
-    console.log(array)
+```abap
+  DATA(go_spiral_matrix) = NEW lcl_spiral_matrix( iv_dimention     = 5
+                                                  iv_initial_value = 0 ).
+  go_spiral_matrix->print( ).
 ```  
-The result:
-![Result]()
+The result:  
+![Result](https://github.com/victorizbitskiy/abapSpiralMatrix/blob/main/docs/img/result.png)
