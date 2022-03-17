@@ -30,7 +30,7 @@ CLASS lcl_spiral_matrix DEFINITION FINAL.
   PRIVATE SECTION.
     DATA lt_coordinates TYPE ty_t_coordinates.
 
-    METHODS create RETURNING VALUE(ro_result) TYPE REF TO lcl_spiral_matrix.
+    METHODS create.
 
 ENDCLASS.
 
@@ -87,8 +87,6 @@ CLASS lcl_spiral_matrix IMPLEMENTATION.
       ENDDO.
 
     ENDDO.
-
-    ro_result = me.
 
   ENDMETHOD.
 
