@@ -121,6 +121,6 @@ ENDCLASS.
 
 START-OF-SELECTION.
 
-  DATA(go_spiral_matrix) = NEW lcl_spiral_matrix( iv_dimention     = 11
+  DATA(go_spiral_matrix) = NEW lcl_spiral_matrix( iv_dimention     = 5
                                                   iv_initial_value = 0 ).
   go_spiral_matrix->print( ).
