@@ -5,16 +5,16 @@ This is another implementation of the [spiral matrix](http://rosettacode.org/wik
 ### Algorithm
 Let's say we want to get a 5x5 (dimention = 5) spiral matrix like this:
 
-![spiralMatrix](https://github.com/victorizbitskiy/spiralMatrix/blob/main/docs/img/spiralMatrix-5x5.svg)
+![spiralMatrix](https://github.com/victorizbitskiy/abapSpiralMatrix/blob/main/docs/img/spiralMatrix-5x5.svg)
 
 The elements of this matrix have the following coordinates:
 
-![spiralMatrixCoordinates](https://github.com/victorizbitskiy/spiralMatrix/blob/main/docs/img/spiralMatrix_5x5_coordinates.svg)
+![spiralMatrixCoordinates](https://github.com/victorizbitskiy/abapSpiralMatrix/blob/main/docs/img/spiralMatrix_5x5_coordinates.svg)
 
 In essence, the task is to find the coordinates for each element. So, lets do it.  
 If we represent the coordinates of rows (dy) and columns (dx) as a sequences of numbers, then we can notice a certain pattern.
 
-![spiralMatrix](https://github.com/victorizbitskiy/spiralMatrix/blob/main/docs/img/spiralMatrix-5x5_table.svg)
+![spiralMatrixTable](https://github.com/victorizbitskiy/abapSpiralMatrix/blob/main/docs/img/spiralMatrix-5x5_table.svg)
 
 1. Total number of sequences = 2*dimention - 1.
 2. The sequence dimention is repeated twice and then reduced by 1 (except for the first sequence).
