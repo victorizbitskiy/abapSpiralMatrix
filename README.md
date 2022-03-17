@@ -30,4 +30,4 @@ This algorithm is implemented in the spiralMatrix() function.
   go_spiral_matrix->print( ).
 ```  
 The result:  
-![Result](https://github.com/victorizbitskiy/abapSpiralMatrix/blob/main/docs/img/result.png)
+![Result](https://github.com/victorizbitskiy/abapSpiralMatrix/blob/main/docs/img/Result.png)
